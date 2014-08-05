@@ -571,8 +571,7 @@ class Client():
                     value = child.text
                     share_attr[key] = value
                 shares.append(share_attr)
-            if len(shares) > 0:
-                return shares
+            return shares
         raise ResponseError(res)
 
     def share_file_with_user(self, path, user, **kwargs):
