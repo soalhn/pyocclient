@@ -41,6 +41,7 @@ Sharing (OCS Share API)
 - share a file/directory via public link
 - check if a file/directory is already shared
 - get information about a shared resource
+- update properties of a known share
 
 App data
 --------
